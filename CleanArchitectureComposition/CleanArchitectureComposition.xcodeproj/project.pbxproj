@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C25FDE2A0BD0E000351149 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C25FDD2A0BD0E000351149 /* LoginPresenter.swift */; };
+		04C25FE02A0BD1CA00351149 /* CrashlyticsLoginTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C25FDF2A0BD1CA00351149 /* CrashlyticsLoginTracker.swift */; };
+		04C25FE22A0BD22100351149 /* FirebaseAnalyticsLoginTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C25FE12A0BD22100351149 /* FirebaseAnalyticsLoginTracker.swift */; };
 		04F802852A0A48520033F731 /* CleanArchitectureCompositionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F802842A0A48520033F731 /* CleanArchitectureCompositionApp.swift */; };
 		04F802872A0A48520033F731 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F802862A0A48520033F731 /* ContentView.swift */; };
 		04F802892A0A48540033F731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F802882A0A48540033F731 /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C25FDD2A0BD0E000351149 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		04C25FDF2A0BD1CA00351149 /* CrashlyticsLoginTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashlyticsLoginTracker.swift; sourceTree = "<group>"; };
+		04C25FE12A0BD22100351149 /* FirebaseAnalyticsLoginTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalyticsLoginTracker.swift; sourceTree = "<group>"; };
 		04F802812A0A48520033F731 /* CleanArchitectureComposition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanArchitectureComposition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F802842A0A48520033F731 /* CleanArchitectureCompositionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanArchitectureCompositionApp.swift; sourceTree = "<group>"; };
 		04F802862A0A48520033F731 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 				04F802842A0A48520033F731 /* CleanArchitectureCompositionApp.swift */,
 				04F802862A0A48520033F731 /* ContentView.swift */,
 				04F802AE2A0A48730033F731 /* LoginUseCase.swift */,
+				04C25FDD2A0BD0E000351149 /* LoginPresenter.swift */,
+				04C25FDF2A0BD1CA00351149 /* CrashlyticsLoginTracker.swift */,
+				04C25FE12A0BD22100351149 /* FirebaseAnalyticsLoginTracker.swift */,
 				04F802882A0A48540033F731 /* Assets.xcassets */,
 				04F8028A2A0A48540033F731 /* Preview Content */,
 			);
@@ -260,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C25FE02A0BD1CA00351149 /* CrashlyticsLoginTracker.swift in Sources */,
+				04C25FDE2A0BD0E000351149 /* LoginPresenter.swift in Sources */,
+				04C25FE22A0BD22100351149 /* FirebaseAnalyticsLoginTracker.swift in Sources */,
 				04F802872A0A48520033F731 /* ContentView.swift in Sources */,
 				04F802852A0A48520033F731 /* CleanArchitectureCompositionApp.swift in Sources */,
 				04F802AF2A0A48730033F731 /* LoginUseCase.swift in Sources */,
