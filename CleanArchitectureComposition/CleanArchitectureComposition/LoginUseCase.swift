@@ -14,8 +14,18 @@ protocol LoginUseCaseOutput {
     func loginFailed() // Error
 }
 
-class LoginUseCase {
+final class LoginUseCase {
+    let output: LoginUseCaseOutput
+    
+    init(output: LoginUseCaseOutput) {
+        self.output = output
+    }
+    
     func login(name: String, password: String) {
-        
+        // if success
+        output.loginSuceeded()
+        // else
+        output.loginFailed()
+
     }
 }
