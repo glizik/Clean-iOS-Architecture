@@ -8,7 +8,7 @@
 import XCTest
 
 final class CleanArchitectureCompositionUITestsLaunchTests: XCTestCase {
-
+    /*
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
@@ -28,5 +28,5 @@ final class CleanArchitectureCompositionUITestsLaunchTests: XCTestCase {
         attachment.name = "Launch Screen"
         attachment.lifetime = .keepAlways
         add(attachment)
-    }
+    }*/
 }

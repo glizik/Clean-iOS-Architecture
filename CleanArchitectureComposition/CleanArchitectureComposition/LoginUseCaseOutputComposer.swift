@@ -8,6 +8,8 @@
 import Foundation
 
 final class LoginUseCaseOutputComposer: LoginUseCaseOutput {
+    
+    
     init(_ outputs: [LoginUseCaseOutput]) {
         
     }
