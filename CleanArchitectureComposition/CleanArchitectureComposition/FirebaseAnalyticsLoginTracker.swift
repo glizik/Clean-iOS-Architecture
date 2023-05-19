@@ -9,6 +9,7 @@ import Foundation
 
 // MARK: - Analytics
 
+// 5. step:
 final class FirebaseAnalyticsLoginTracker: LoginUseCaseOutput {
     func loginSuceeded() {
         // send login event to firebase

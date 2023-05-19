@@ -9,6 +9,7 @@ import Foundation
 
 // MARK: - Presentation
 
+// 3. step:
 final class LoginPresenter: LoginUseCaseOutput {
     func loginSuceeded() {
         // create welcome view model and pass it to the view controller

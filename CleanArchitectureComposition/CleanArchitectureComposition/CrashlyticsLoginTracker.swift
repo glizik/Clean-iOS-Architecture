@@ -9,6 +9,7 @@ import Foundation
 
 // MARK: - Analytics
 
+// 4. step:
 final class CrashlyticsLoginTracker: LoginUseCaseOutput {
     func loginSuceeded() {
         // send login event to crashlytics

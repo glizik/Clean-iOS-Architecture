@@ -9,11 +9,13 @@ import Foundation
 
 // MARK: - Business logic
 
+// 2. step:
 protocol LoginUseCaseOutput {
     func loginSuceeded() // User
     func loginFailed() // Error
 }
 
+// 1. step:
 final class LoginUseCase {
     let output: LoginUseCaseOutput
     
